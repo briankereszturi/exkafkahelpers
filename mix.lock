@@ -1,1 +1,1 @@
-%{"kafka_ex": {:git, "https://github.com/TheRealReal/kafka_ex.git", "ba1c82e97b09c221781dcd77342db6c23c265693", [branch: "feature/consumer-group"]}}
+%{"kafka_ex": {:git, "https://github.com/dcuddeback/kafka_ex.git", "9d0b4cc7af0e840863685a3005eaaafb7b961254", [branch: "feature/consumer-group"]}}
