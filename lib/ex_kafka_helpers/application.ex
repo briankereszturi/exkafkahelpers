@@ -16,7 +16,9 @@ defmodule Kafka.Application do
 
   def connect() do
     case KafkaEx.create_worker(:kafka_ex) do
-      {:ok, pid} -> {:ok, pid}
+      {:ok, pid} ->
+        Logger.info "Connected to Kafka."
+        {:ok, pid}
       _ ->
         :timer.sleep(5000)
         # Wait and reconnect.
