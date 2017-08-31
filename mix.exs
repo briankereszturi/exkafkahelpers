@@ -17,7 +17,7 @@ defmodule Kafka.Mixfile do
 
   defp deps do
     [
-      {:kafka_ex, git: "https://github.com/kafkaex/kafka_ex.git", branch: "consumer-group"}
+      {:kafka_ex, git: "https://github.com/kafkaex/kafka_ex.git"}
     ]
   end
 end
