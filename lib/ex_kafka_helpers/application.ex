@@ -19,7 +19,8 @@ defmodule Kafka.Application do
       {:ok, pid} ->
         Logger.info "Connected to Kafka."
         {:ok, pid}
-      _ ->
+      e ->
+        Logger.error "Error connecting to Kafka: #{inspect e}"
         :timer.sleep(5000)
         # Wait and reconnect.
         Logger.info "Attempting to connect to Kafka..."
