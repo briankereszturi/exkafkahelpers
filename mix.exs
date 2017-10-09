@@ -17,7 +17,8 @@ defmodule ExKafkaHelpers.Mixfile do
 
   defp deps do
     [
-      {:kafka_ex, git: "https://github.com/kafkaex/kafka_ex.git"}
+      {:kafka_ex, git: "https://github.com/kafkaex/kafka_ex.git"},
+      {:erlzk, "~> 0.6.2"},
     ]
   end
 end
