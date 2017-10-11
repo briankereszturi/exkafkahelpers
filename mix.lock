@@ -1,1 +1,2 @@
-%{"kafka_ex": {:git, "https://github.com/dcuddeback/kafka_ex.git", "9d0b4cc7af0e840863685a3005eaaafb7b961254", [branch: "feature/consumer-group"]}}
+%{"erlzk": {:hex, :erlzk, "0.6.3", "54edff8f343e638da34bc176502646798da1618ddf1eb062a7fe73edc94e4e9e", [:make, :rebar], []},
+  "kafka_ex": {:git, "https://github.com/tzzzoz/kafka_ex.git", "f32de68ade150948c7dbb390bd0b460e502c3e64", [branch: "fix_fetch_nil_response_exception"]}}
