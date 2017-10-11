@@ -17,7 +17,7 @@ defmodule ExKafkaHelpers.Mixfile do
 
   defp deps do
     [
-      {:kafka_ex, git: "https://github.com/tzzzoz/kafka_ex.git", branch: "fix_fetch_nil_response_exception"},
+      {:kafka_ex, git: "https://github.com/kafkaex/kafka_ex.git"},
       {:erlzk, "~> 0.6.2"},
     ]
   end
